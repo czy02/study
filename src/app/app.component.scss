@@ -1,0 +1,76 @@
+// #main{
+//     width: 300px;
+//     border: 25px solid green;
+//     padding: 25px;
+//     margin: 25px;
+// }
+#main{
+    width: 400px;
+    height: fit-content;
+    border: 1px solid white;
+    background-color: rgb(217, 218, 219);
+}
+
+.title{
+    margin-top: -60px;
+    width: 400px;
+    height: 40px;
+    background-color: blue;
+    
+
+    .title_history{
+        margin-top: 50px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .title_add{
+        margin-top: -40px;
+        margin-left: 275px;
+        
+    }
+
+    .title_check{
+        margin-top: -23px;
+        margin-left: 330px;
+        
+    }
+
+
+}
+.button1,
+.button2{
+    background-color: blue;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button3,
+.button4,
+.button5,
+.button6,
+.button7,
+.button8{
+    background-color: white;
+    border: 1px solid rgb(180, 177, 177);
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 133px;
+}
+.button3:active,
+.button4:active,
+.button5:active,
+.button6:active,
+.button7:active,
+.button8:active{
+    background: blue;
+}
+

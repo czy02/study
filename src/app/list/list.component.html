@@ -1,0 +1,73 @@
+
+<div *ngFor="let item of clothes">
+
+<div class="caigou">
+    <div>
+        <label for="gongyingshang">供应商 </label>
+        <div class="all">{{item.gongyingshang}}</div>
+      </div>
+      
+    <hr>
+    <div>
+        <label for="cangku">仓库 </label>
+        <div class="all">{{item.cangku}}</div>
+    </div>
+    
+    <hr>
+    <div>
+        <label for="dingdanzhuangtai">订单状态 </label>
+        <div class="all">{{item.dingdanzhuangtai}}</div>
+    </div>
+</div>
+
+<div class="mingxi">
+    <div><div class="sx">商品明细<button>打印条码</button></div><div class="heji">合计: <span>{{item.shuliang}}</span> <a class="money"> ￥<span>{{item.money}}</span></a></div></div>
+    <hr/>
+
+   <div class="ppp"> <img class="pic" src="{{item.picture}}" > <span class="mingcheng">{{item.mingcheng}}</span></div>
+   <hr/>
+
+   <div class="kuanshi">
+    <span>{{item.yanse}}</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>{{item.size}}</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+     <span>￥{{item.danjia}}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span>{{item.shuliang}}</span>
+   </div>
+    
+</div>
+<br/>
+
+<!-- 第三部分 -->
+<div class="count">
+   <label for="jiesuanzhanghu">结算账户</label>
+   <div class="all">{{item.jiesuanzhanghu}}</div>
+   <hr/>
+   <label for="money">实付金额</label>
+   <div class="all">￥{{item.money}}</div>
+   <hr/>
+   <label for="qian">欠供应金额</label>
+   <div class="all">￥{{item.qian}}</div>
+   <hr/>
+   <label for="danhao">单号</label>
+   <div class="all">{{item.danhao}}</div>
+   <hr/>
+   <label for="zhidanren">制单人</label>
+   <div class="all">{{item.zhidanren}}</div>
+   <hr/>
+   <label for="date">业务日期</label>
+   <div class="all">{{item.date}}</div>
+</div>
+
+<br/>
+
+<!-- 第四部分 -->
+<div  class="four">
+   <label for="beizhu">备注</label>
+   <div class="other">{{item.beizhu}}</div>
+   <hr/>
+   <label for="fujian">附件</label>
+   <div class="other">{{item.fujian}}</div>
+</div>
+
+<br/>
+
+</div>
+

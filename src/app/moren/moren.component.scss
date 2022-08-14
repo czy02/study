@@ -1,0 +1,66 @@
+.cl{
+   border: 1px solid rgb(198, 197, 197);
+   width: 357px;
+   height: 40px;
+   background-color: white;
+}
+
+
+.goods {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(198, 197, 197);
+}
+
+.picture{
+    margin-left: -10px;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    
+}
+
+.goods .info {
+    flex: 1;
+}
+ 
+.goods .info .shop {
+    padding-top: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+.goods .info .id,.time{
+    color: #888888;
+    font-size: 11px;
+}
+
+.goods .info p {
+    font-size: 11px;
+    color: #888888;
+    margin: 10px 0;
+}
+ 
+.goods .count {
+ 
+    padding-top: 5px;
+}
+
+.money {
+    font-size: 18px;
+    color: orangered;
+    margin-left: -10px;
+    text-decoration: none
+}
+
+.destination{
+    font-size: 11px;
+    color: #888888;
+    margin-left: 10px;
+}
+
+
+
